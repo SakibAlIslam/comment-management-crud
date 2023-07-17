@@ -1,4 +1,8 @@
 <div>
+    <div class="mb-5 flex justfiy-center items-center gap-4">
+        <i class="fa-solid fa-comment-dots text-4xl text-white"></i>
+        <p class="text-4xl leading-[46px] font-bold bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 bg-clip-text text-transparent">Share your thoughts ....</p>
+    </div>
     <form wire:submit.prevent="addComment">
         <input class="w-[70vw] h-[60px] p-5 rounded border-2 border-gray-400"
         style="border-image: linear-gradient(to right, #ff00c6, #ff8a05) 1;"
