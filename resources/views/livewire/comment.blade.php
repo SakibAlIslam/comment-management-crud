@@ -7,7 +7,7 @@
         <input class="w-[70vw] h-[60px] p-5 rounded border-2 border-gray-400"
         style="border-image: linear-gradient(to right, #ff00c6, #ff8a05) 1;"
         type="text"
-        wire:model="newComment"
+        wire:model.lazy="newComment"
         name="comment"
         placeholder="Leave a comment...">
 
